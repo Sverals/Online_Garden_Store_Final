@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../project.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../main.js"></script>
+    <title>Garden Store</title>
+    <meta name="description" content="Receive expert advise from our gardeners by reading about how you can protect your gardens from pest, choose a plant pot size, or watch how to replant a plant.">
+</head>
+<body>
+<header class="outline" id="logo-header">
+    <div class="company-logo">
+        <img src="../images/small_images/small_logo.PNG" alt="" width="72" height="72">
+        <div class="logo-text-wrapper">
+            <h1>Shirley Good Growing Co.</h1>
+            <p>Plant nursery and garden supplier</p>
+        </div>
+    </div>
+    <nav>
+        <ul class="no-list-style drop-top">
+            <li><a href="../index.html" class="nav-btn black-box no-underline">Home</a></li>
+            <li class="black-box no-underline fill dropbtn">
+                <div class="hover-wrapper">
+                    <p class="hide-if-phone">Products</p>
+                    <div class="white-arrow down hide-if-phone"></div>
+                    <div id="drop-content">
+                        <ul class="product-links no-list-style">
+                            <li><a href="garden-accessories.html">Garden Accessories</a></li>
+                            <li><a href="./houseplants.html">House Plants</a></li>
+                            <li><a href="./vegetables.html">Vegetables</a></li>
+                            <li><a href="./fruit.html">Fruit</a></li>
+                            <li><a href="./landscaping.html">Landscaping</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+            <li><a href="./services.html" class="nav-btn black-box no-underline">Services</a></li>
+            <li><a href="./plant-tips.html" class="nav-btn black-box no-underline">Plant Care</a></li>
+            <li><a href="./about.html" class="nav-btn black-box no-underline">About Us</a></li>
+            <li><a href="./contact.html" class="nav-btn black-box no-underline">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <div class="hero-wrapper outline center" id="plant-care-hero">
+            <div id="gray-overlay">
+                <h2 class="horizontal-stack">Plant Care Tips</h2>
+            </div>
+        </div>
+    </section>
+    <section class="service-wrapper black-box">
+        <div class="text-flex">
+            <h3>Choosing the right size pot for your plant</h3>
+            <div class="black-box full-width service-pad">
+                <p class="line-spacer limit-width">Choosing the right size pot for your plants can be a challenging task. However there are some simple ways to
+                    determine what size pot is best. First measure the length across the top of the pot, from one of the circle to the other. Then using this measurement 
+                    you generally want to add 1-3 inches depending on the type of plant. Plants with large root system prefer a larger pot, while shallow root plants will prefer
+                    a smaller pot.
+                </p>
+            </div>
+        </div>
+        <img src="../images/plant_pots.jpg" alt="Stacks of clay pots in a shelf." width="800" height="350">
+    </section>
+    <section class="service-wrapper black-box">
+        <div class="text-flex">
+            <h3>How to control pest</h3>
+            <div class="black-box full-width service-pad">
+                <p class="line-spacer limit-width">There are many forms of pest control, from irritants to pesticide. A simple non-chemical approach to warding off
+                    pest such as aphids, ants, or slugs is diatomaceous earth. This course powder damages these insects, helping to ward them off of your plants, while also
+                    avoiding harsh chemicals. Some common irritants are certain oils, soaps, and baking soda can help to control other pest that diatomaceous earth won't work on.
+                    As a last resort there are the chemical pesticides, although typically effective, improper handling can be hazardous.
+                </p>
+            </div>
+        </div>
+        <img src="../images/pest_control.jpg" alt="Aphids swarming on the top of a plant." width="500" height="350">
+    </section>
+    <section class="service-wrapper black-box" id="repot-tutorial-wrapper">
+        <h3>How To Repot a Plant</h3>
+        <div id="video-wrapper">
+            <video controls width="896" height="504" aria-label="A tutorial on how to repot a plant from our store.">
+                <source src="../video/repottingVideo.webm" type="video/webm"> <!--Webm usually load better but less support-->
+                <source src="../video/repottingVideo.mp4" type="video/mp4">
+                <track src="../video/captions.vtt" kind="captions" srclang="en" label="English"> <!--Captions-->
+            </video>
+            
+        </div>
+        <details id="transcript">
+            <summary>Video Transcript</summary>
+            <p>Hello this is Matthew Shirley from
+                Shirley Good Growing, today I'll be showing
+                you how to repot a plant. when you
+                purchase a plant from our store you'll
+                want to repot it to give it room to grow
+                and to prevent root.
+                first we're going to fill in the
+                bottom of this
+                pot to give the plant a base to sit
+                on then we're going to want to take out
+                the plant from its original container from
+                what it came from the
+                store
+                carefully then we're going to want to
+                rest it inside and for these merry golds,
+                I'm going to do two of them because it
+                will look better.
+                so looking
+                here this might be enough soil at the
+                bottom, yes, so now you're going to want
+                to start filling in the rest of the pot
+                around the
+                plant and you're going to want to try to
+                make it so it's the same level as it was
+                before.
+                that's all you need to do to repot your
+                plant. I hope you'll be able to repot your
+                plants you purchase from our green
+                houses. If you have other questions
+                or concerns contact us on our web page.</p>
+        </details>
+    </section>
+</main>
+<footer>
+    <div id="footer-top">
+        <div class="row logo-with-text">
+            <img src="../images/small_images/footer_logo.PNG" alt="Shirley Good Growing Company logo" height="36"
+                 width="36">
+            <h3>Shirley Good Growing Co.</h3>
+        </div>
+        <div class="gap-flex">
+            <h3>Navigation</h3>
+            <ul class="no-list-style">
+                <li><a href="../index.html" class="no-underline">Home</a></li>
+                <li><a href="./services.html" class="no-underline">Services</a></li>
+                <li><a href="plant-tips.html" class="no-underline">Plant Care</a></li>
+                <li><a href="./about.html" class="no-underline">About us</a></li>
+                <li><a href="./contact.html" class="no-underline">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="gap-flex">
+            <h3>Follow Our Social Media</h3>
+            <ul class="no-list-style">
+                <li class="logo-with-text">
+                    <img src="../images/small_images/footer_blue_sky.png" alt="BlueSky logo." width="36" height="36">
+                    <a href="https://bsky.app/" target="_blank">BlueSky</a>
+                </li>
+                <li class="logo-with-text">
+                    <img src="../images/small_images/footer_facebook_logo.png" alt="Facebook logo." width="36"
+                         height="36">
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                </li>
+                <li class="logo-with-text">
+                    <img src="../images/social_media_logos/Instagram_Glyph_Gradient.svg" alt="Instagram logo."
+                         width="36" height="36">
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="gap-flex">
+            <h3>Contact</h3>
+            <address>
+                <div class="contact">
+                    <h4>Phone</h4>
+                    <p>(800)-555-0100</p>
+                    <h4>Email</h4>
+                    <p>ShirleyGGC@example.com</p>
+                </div>
+                <div class="location">
+                    <p>123 Street</p>
+                    <p>City, State 00401</p>
+                </div>
+            </address>
+        </div>
+    </div>
+    <div class="copyright"><p>Shirley Good Growing Co. &copy; 2025</p></div>
+</footer>
+</body>
+</html>
