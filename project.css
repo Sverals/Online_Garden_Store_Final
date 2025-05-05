@@ -287,10 +287,13 @@ footer ul {
     display: flex;
     align-items: center;
     gap: .5em;
+
 }
 
 .logo-with-text img {
     border-radius: 4px;
+    height: 32px;
+    width: 32px;
 }
 
 .gap-flex address {
@@ -817,6 +820,11 @@ figure {
 
 #gallery-holder img {
     border: none;
+
+}
+
+#gallery-holder ul img {
+
 }
 
 #gallery-holder a {
@@ -825,8 +833,29 @@ figure {
     font-style: italic;
 }
 
-#gallery-holder a:hover span { position: absolute; top: 16px; left: 320px;
-    text-align: center; opacity: 1; }
+#photo-container img{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+
+#gallery-holder a:hover span { 
+    position: absolute !important;
+    top: 30px !important; 
+    left: 82px !important;
+    width: 300px;
+    height: 217.5px;
+    text-align: center; opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gallery-holder a:hover span img {
+    width: 300px;
+    height: 217.5px;
+    
+}
 
 #gallery-images {
     position: relative;
@@ -999,6 +1028,16 @@ figure {
     margin-top: 2em;
 }
 
+.round-edge .outline {
+    height: 150px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.service-wrapper img {
+    width: 300px;
+    height: auto;
+}
 
 /*Responsive section*/
 /*Converts most flex into column flex boxes*/
